@@ -13,9 +13,9 @@ on:
       - README.md
       - LICENSE
   pull_request:
+    types: [opened, synchronize, reopened]
     paths-ignore:
       - ".github/**"
-      - "!.github/workflows/ci.yml"
       - .gitignore
       - "docs/**"
       - README.md
